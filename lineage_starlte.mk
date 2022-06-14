@@ -34,3 +34,6 @@ PRODUCT_MODEL := SM-G960F
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.build.stock_fingerprint="samsung/starltexx/starlte:10/QP1A.190711.020/G960FXXSHFUJ2:user/release-keys"
